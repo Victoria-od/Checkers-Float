@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+	padding:0;
+	background-color:navy;
+}
+.conteiner{
+position:relative;
+width:400px;
+height:400px;
+background-color:yellow;
+}
+
+.board{
+	position:absolute;
+	width:100%;
+	height:100%;
+}
+.board p.right{
+    float: right;
+    width: 12.5%;
+    height: 12.5%;
+	margin:0;	
+}
+p{
+	padding:0;
+}
+
+.board p {
+    float: left;
+    width: 12.5%;
+    height: 12.5%;
+	margin:0;
+ }
+ p:nth-child(odd){
+ background-color:black;
+ }
+ 
+ 
+  p:nth-child(even){
+ background-color:white;
+ }
+ 
+ .white{
+font-size:44px;
+color:blue;
+margin-left:6px;
+margin-top:3px;
+margin-right:3px;
+box-sizing:border-box;
+}	
+
+
+.black{
+font-size:44px;
+color:maroon;
+margin-left:6px;
+margin-top:3px;
+box-sizing:border-box;
+}
